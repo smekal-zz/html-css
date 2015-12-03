@@ -1,2 +1,2 @@
 # html-css
-contains html and css related files
+contains html and css related exercise files
