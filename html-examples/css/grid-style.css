@@ -1,0 +1,30 @@
+.container_12{
+	background-color: #e1e2e3;
+}
+nav li {
+	display: inline;
+
+}
+nav li {
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+aside {
+	background-color: green;
+}
+
+.primary {
+	background-color: #c3c3c3;
+
+}
+
+.main {
+	margin: 10px 0;
+
+}
+
+section {
+	box-sizing : border-box;
+	padding: 0 5px;
+}
