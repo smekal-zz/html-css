@@ -1,0 +1,159 @@
+body{
+	background-color: #fff;
+	font-family: 'Droid Serif', sans-serif;
+	
+}
+
+.primary_menu {
+	box-sizing : border-box;
+}
+
+.primary_menu ul {
+	margin-top: 40px;
+	float : right;
+	padding-right: 180px;
+}
+
+.primary_menu li {
+	display: inline;
+	margin-left: 0px;
+	margin-right: 25px;
+}
+
+.primary_menu a{
+	color: #444;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.primary_menu li a , .title li a{
+	text-decoration: none;
+}
+
+.primary_menu li a:hover ,  .title li a:hover{
+	text-decoration: none;
+	color: #1abc9c;
+}
+
+.title {
+	padding: 30px 0;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #EEE;
+}
+
+.title .container {
+    position: relative;
+    padding-left: 200px;
+}
+
+.title h1{
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+	font-size: 28px;
+	font-family: Lato, sans-serif;
+}
+
+.title span {
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #777;
+    font-size: 18px;
+    letter-spacing : 1px;
+}
+
+.title li{
+	text-decoration: none;
+	display: inline;
+}
+
+.title li a{
+	color : #333;
+}
+
+ .breadcrum{
+ 	position: absolute!important;
+    top: 50%!important;
+    left: auto!important;
+    right: 210px!important;
+    margin: -10px 0 0!important;
+    background-color: transparent!important;
+    padding: 0!important;
+    font-size: 12px;
+ }
+
+ .breadcrum li {
+ 	margin-left: 0px;
+ 	font-size: 12px;
+ }
+
+ .breadcrum li:after{
+	content: "/";
+	color: #e5e5e5;
+	padding: 0 5px;
+ }
+
+ .breadcrum li:last-child:after {
+	content: none;
+}
+
+.first_container{
+	padding-top : 50px;
+}
+.first_container h3 {
+	margin: 5px 0px;
+	
+}
+.first_container span{
+font-size: 16px;
+font-weight: 300;
+height: 24px;
+letter-spacing: 1px;
+line-height: 24px;
+}
+
+.first_container p{
+	margin: 10px 0px;
+}
+.first_container section{
+	box-sizing : border-box;
+	padding: 0 5px;
+}
+
+.second_container{
+	background-color: #e5e5e5;
+	position: relative;
+	margin: 50px 0px;
+	padding: 0 20px;
+}
+
+.heading h3{
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-transform: uppercase;;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.center {
+	text-align: center !important;
+}
+
+.col_full{
+	clear: both;
+    float: none;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+img.aligncenter{
+	margin-left: auto;
+    margin-right: auto;
+    margin: 10px auto;
+    clear: both;
+    max-width: 100%;
+}
+
