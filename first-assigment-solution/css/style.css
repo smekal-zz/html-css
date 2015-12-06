@@ -122,6 +122,7 @@ line-height: 24px;
 
 .first_container p{
 	margin: 10px 0px;
+	color: #777;
 }
 .first_container section{
 	box-sizing : border-box;
@@ -137,14 +138,19 @@ line-height: 24px;
 
 .heading h3{
 	font-size: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	text-transform: uppercase;;
 	font-weight: bold;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
-.center {
-	text-align: center !important;
+.heading span{
+	max-width: 200px;
+}
+
+.heading {
+	text-align: center;
+	padding: 20px 0px;
 }
 
 .col_full{
@@ -168,6 +174,16 @@ line-height: 24px;
 .second_container .section h3{
 	letter-spacing: 2px;
 	text-transform: uppercase;
+}
+
+.second_container span{
+	color: #777;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+.second_container p{
+	color: #777;
 }
 
 .third_container {
@@ -212,7 +228,8 @@ hr{
 
 /*************** Footer style starts ****************/
 .footer{
-	padding: 60px 0;
+	padding: 30px 0;
+	background-color: #ffe;
 }
 
 .footer span{
@@ -293,7 +310,7 @@ hr{
 
 /************ Portfolio Filter start ****************/
 
-.portfolio-container{
+.portfolio-filter-container{
 	padding-left: 190px;
 	margin: 20px 0;
 }
@@ -328,4 +345,16 @@ hr{
 
 .portfolio-filter li a:hover{
 	color: #1abc9c;
+}
+
+.portfolio section {
+	padding: 40px 0;
+}
+
+.portfolio h3{
+	margin: 10px 0px;
+}
+.portfolio span{
+	color : #777;
+	font-size: 13px;
 }
