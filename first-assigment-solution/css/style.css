@@ -12,12 +12,19 @@ body{
 .primary_menu ul {
 	margin-top: 40px;
 	float : right;
-	padding-right: 180px;
+	padding-right: 0;
+	margin-right: 0;
 }
 
-.primary_menu li , .strap li{
+.primary_menu li {
 	display: inline;
-	margin-left: 0px;
+	margin-left: 0;
+	margin-right: 25px;
+}
+
+ .strap li{
+	display: inline;
+	margin-left: 0;
 	margin-right: 25px;
 }
 
@@ -51,8 +58,8 @@ body{
 }
 
 .title h1 , .third_container h1{
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	text-transform: uppercase;
 	font-size: 28px;
 	font-family: Lato, sans-serif;
@@ -89,7 +96,7 @@ body{
  }
 
  .breadcrum li {
- 	margin-left: 0px;
+ 	margin-left: 0;
  	font-size: 12px;
  }
 
@@ -109,19 +116,19 @@ body{
 	padding-top : 50px;
 }
 .first_container h3 {
-	margin: 5px 0px;
+	margin: 5px 0;
 	
 }
 .first_container span{
-font-size: 16px;
-font-weight: 300;
-height: 24px;
-letter-spacing: 1px;
-line-height: 24px;
+	font-size: 16px;
+	font-weight: 300;
+	height: 24px;
+	letter-spacing: 1px;
+	line-height: 24px;
 }
 
 .first_container p{
-	margin: 10px 0px;
+	margin: 10px 0;
 	color: #777;
 }
 .first_container section{
@@ -132,13 +139,13 @@ line-height: 24px;
 .second_container{
 	background-color: #F5F5F5;
 	position: relative;
-	margin: 50px 0px;
+	margin: 50px 0;
 	padding: 30px 5px;
 }
 
 .heading h3{
 	font-size: 30px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	text-transform: uppercase;;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -150,20 +157,18 @@ line-height: 24px;
 
 .heading {
 	text-align: center;
-	padding: 20px 0px;
+	padding: 20px 0;
 }
 
 .col_full{
-	margin: 10px 0px;
+	margin: 10px 0;
 	text-align: center;
 	width:100%;
 }
 
 .col_full img{
-	
-    margin-left: auto;
+	margin-left: auto;
     margin-right: auto;
-    
     max-width: 100%;
 }
 
@@ -209,7 +214,7 @@ line-height: 24px;
 
 /***** styling for horizontal line ****/
 hr{
-	margin: 50px 0px;
+	margin: 50px 0;
 	clear: both;
 }
 
@@ -229,41 +234,41 @@ hr{
 
 /*************** Footer style starts ****************/
 .footer{
-	padding: 30px 0;
-	background-color: #ffe;
+	padding: 20px 0;
+	background-color: #e5e5a8;
 }
 
 .footer span{
 	text-transform: uppercase;
 	text-align: left;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
-	letter-spacing: 1.5px;
+	letter-spacing: 0.5px;
 	margin-bottom: 20px;
 }
 .footer .company_name{
 	color:#003366;
 	font-weight: bold;
 	font-size: 27px;
-	margin: 0px;
+	margin: 0;
 	text-shadow : 1px 2px 2px #66ff33;
 }
 
 .footer ul{
-	margin-left: 0px;
-	margin-top: 20px;
+	margin-left: 0;
+	margin-top: 15px;
 }
 .footer li{
 	list-style: none;
-	margin-left: 0px;
-	line-height: 25px;
+	margin-left: 0;
+	line-height: 22px;
 }
 
 .footer li a , .footer p{
 	text-decoration: none;
 	margin: 10px 0;
 	color: #6d6e71;
-	font-size: 15px;
+	font-size: 14px;
 	letter-spacing: 0.5px;
 }
 
@@ -272,10 +277,11 @@ hr{
 }
 
 .footer-social{
-	padding-top: 30px;
+	padding-top: 10px;
 }
 .footer-social a{
 	text-decoration: none;
+	margin-right: 5px;
 }
 
 /*************** Footer style ends ****************/
@@ -331,14 +337,14 @@ hr{
 .portfolio-filter li{
 	list-style: none;
 	display: inline;
-	margin-left: 0px;
+	margin-left: 0;
 	padding: 13px;
 	border-color: #666;
 	border-right: 1px solid rgba(0,0,0,.09); 
 }
 
 .portfolio-filter li:last-child{
-	border-right: 0px; /* To skip border line for last li element in filter */
+	border-right: 0; /* To skip border line for last li element in filter */
 }
 
 .portfolio-filter li a{
@@ -356,7 +362,7 @@ hr{
 }
 
 .portfolio h3{
-	margin: 10px 0px;
+	margin: 10px 0;
 }
 .portfolio span{
 	color : #777;
